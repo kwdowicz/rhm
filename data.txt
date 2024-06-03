@@ -1,0 +1,6 @@
+insert|name|Kamil
+insert|name|Gimba
+insert|name|Kamil
+insert|name|Gimba
+insert|tree|Pine
+insert|plant|Grass
