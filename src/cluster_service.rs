@@ -27,6 +27,8 @@ impl ClusterService for ImplClusterService {
             Err(e) => result = format!("Can't add socket to cluster: {e}"),
         }
 
+        println!("{:#?}", servers);
+
         Ok(Response::new(AddServerResponse {
             result: result,
         }))
