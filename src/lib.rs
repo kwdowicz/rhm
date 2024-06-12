@@ -1,4 +1,4 @@
 pub mod rhm;
-pub mod service;
+pub mod server_service;
 pub mod storage;
 pub mod client;

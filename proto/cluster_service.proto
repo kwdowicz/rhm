@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package cluster_service;
+
+service ClusterService {
+  rpc AddServer(AddServerRequest) returns (AddServerResponse);
+}
+
+message AddServerRequest {
+  string addr = 1;
+}
+
+message AddServerResponse {
+  string result = 1;
+}
